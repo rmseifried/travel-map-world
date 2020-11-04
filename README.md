@@ -1,4 +1,2 @@
-# native-land-maps
-Sandbox for testing webmap displays for Native Land API
-
-<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.553080,-86.473389"></iframe>
+# Native Land Maps
+Sandbox for testing webmap displays for the [Native Land API](https://native-land.ca/resources/api-docs/) in the area of UMass Amherst Libraries (Amherst, MA).
