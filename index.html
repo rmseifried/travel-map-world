@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Native Lands Map</title>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-      h2 {
-        margin: 10px;
-        font-size: 1.2em;
-      }
-      h3 {
-        font-size: 1.2em;
-      }
-      p {
-        font-size: 1.1em;
-      }
-    </style>
-  </head>
-  <body>
-    <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.553080,-86.473389"></iframe>
-  </body>
+    <head>
+        <title>Native Lands Map</title>
+        <style>
+            h1 {
+                color: black;
+                font-family: Optima, Helvetica, sans-serif;
+                text-shadow: 1px 1px 2px #99A3A4;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            h2 {
+                color: black;
+                font-family: Optima, Helvetica, sans-serif;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            
+            p {
+                font-family: Calibri, Arial, sans-serif;
+                font-size: 16px;
+                margin-left: 0px;
+                margin-right: 40px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h1 style="text-align:left;">Native Land Map of Amherst, MA</h1>
+        <p>Maps generated using the Native Land API. For more information about how to use the API, check the documentation page here: <a hrefhttps://native-land.ca/resources/api-docs/">https://native-land.ca/resources/api-docs/</a>.</p>
+
+        <h2>Territories overlaying Amherst</p>
+        <p>Embedded iframe code: <code>&lt;iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.389760,-72.528237"&gt;&lt;/iframe&gt;</code></p> 
+        <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.389760,-72.528237" width="600" height="400"></iframe>
+      
+        <h2>Languages overlaying Amherst</p>
+        <p>Embedded iframe code: <code>&lt;iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.553080,-86.473389"&gt;&lt;/iframe&gt;</code></p> 
+        <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.553080,-86.473389" width="600" height="400"></iframe>
+    </body>
 </html>
