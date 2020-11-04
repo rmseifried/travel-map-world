@@ -27,9 +27,11 @@
         <h1 style="text-align:left;">Native Land Map of Amherst, MA</h1>
         <p>Maps generated using the Native Land API. For more information about how to use the API, check the documentation page here: <a href="https://native-land.ca/resources/api-docs/">https://native-land.ca/resources/api-docs/</a>.</p>
         <h2>Territories overlaying the Libraries</h2>
+        <p>The following code can be used to generate a web map of all the territories overlaying the latitude and longitude of the W.E.B. Du Bois Library. Currently this selects three territories: Pocumtuc, Nipmuc, and the Wabanaki Confederacy.</p>
         <p>Embedded iframe code: <code>&lt;iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.389760,-72.528237"&gt;&lt;/iframe&gt;</code></p> 
         <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=42.389760,-72.528237" width="600" height="400"></iframe>
         <h2>Select territories near Amherst</h2>
+        <p>Because the zoom level automatically adjusts to encompass all of the Wabanaki Confederacy, it could be advantageous to specify which territories to include. This code will generate a web map of just the Pocumtuc and Nipmuc territories.</p>
         <p>Embedded iframe code: <code>&lt;iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&name=pocumtuc,nipmuck"&gt;&lt;/iframe&gt;</code></p> 
         <iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&name=pocumtuc,nipmuck" width="600" height="400"></iframe>
     </body>
